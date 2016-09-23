@@ -17,7 +17,7 @@
         android:hardwareAccelerated="true"
         android:theme="@style/AppTheme">
 
-        //主类
+        <!--主类-->
         <activity android:name=".ui.main.activity.WelcomeActivity"
             android:theme="@style/SplashTheme"
             android:screenOrientation="portrait">
@@ -33,7 +33,7 @@
             android:screenOrientation="portrait">
         </activity>
 
-        //知乎
+        <!--知乎-->
         <activity android:name=".ui.zhihu.activity.CalendarActivity"
             android:launchMode="singleTop"
             android:screenOrientation="portrait"/>
@@ -52,7 +52,7 @@
             android:launchMode="singleTop"
             android:screenOrientation="portrait"/>
 
-        //Gank
+        <!--Gank-->
         <activity android:name=".ui.gank.activity.TechDetailActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:windowSoftInputMode="stateHidden|adjustResize"
